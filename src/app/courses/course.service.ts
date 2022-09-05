@@ -8,7 +8,7 @@ import { Course } from "./courses";
 })
 export class CourseService{
 
-    private courseUrl: string = "http://localhost:4200/api/courses";
+    private courseUrl: string = "https://course-manager-production.up.railway.app/api/courses";
 
     constructor(private httpClient: HttpClient){}
 
